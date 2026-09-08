@@ -1,0 +1,12 @@
+So thanks for being here...first time adding my project on GitHub.
+soo there is some configurations to do.
+in this project, i am fetching my gpu stats as well... soo in order the esp32 to fetch that you will have to add the python file along with this to startup(or you can run it every single time, upto you)
+after adding that python file to startup, download LibreHardwareMonitor from https://github.com/LibreHardwaRemonitor/LibreHardwareMonitor
+after downloading that do as follow install it--- open it---options---remote web server---make sure the tick is there
+soo thats all for the system stats
+
+
+now moving to the spotify stuff, rn the code doesn't have any api connected...so you can log in to spotify for developers, create an api and add it to the code...ezz
+
+
+thanks, any doubt, contact me on Instagram -- yagaami_light
