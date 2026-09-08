@@ -24,8 +24,8 @@ U8G2_SSD1306_128X64_NONAME_1_HW_I2C u8g2_music(U8G2_R0, U8X8_PIN_NONE);
 U8G2_SSD1306_128X64_NONAME_1_HW_I2C u8g2_stats(U8G2_R0, U8X8_PIN_NONE);
 
 // --- WI-FI CREDENTIALS ---
-const char* ssid     = "KIRA";
-const char* password = "Dattebayo123";
+const char* ssid     = "YOUR SSID";
+const char* password = "YOUR PASSWORD";
 
 // --- NTP TIME CONFIG ---
 const char* ntpServer = "pool.ntp.org";
@@ -33,9 +33,9 @@ const long gmtOffset_sec = 19800; // IST (+5:30)
 const int daylightOffset_sec = 0;
 
 // --- SPOTIFY CONFIG ---
-String client_id     = "c1dae8d380ac4895b7be8d56a47072b8";
-String client_secret = "5879f70740bc4e47b2b9ca1d0be47f2a";
-String refresh_token = "AQD1e15kzC7ksxh_ygRhozv_GZyBntoC40U0ifuSnD1vfukvDw2qBfZ--dVY5ewbpUtFHZGBeU1qs5ZwiTI4NaUQ4bWXYFkEyr4yOxAgcVEdM56Qy-2DGJEdAAriioGki2g";
+String client_id     = "your string client id from spotify";
+String client_secret = "your string client secret id from spotify";
+String refresh_token = "your string refresh token from spotify";
 
 long current = 0, duration = 0;
 int volume = 0;
